@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar,faStarHalfStroke} from '@fortawesome/free-solid-svg-icons';
-// import { faStar as lightStar} from '@fortawesome/free-regular-svg-icons';
+//import { faStar,faStarHalfStroke} from '@fortawesome/free-solid-svg-icons';
+import { faStar as lightStar} from '@fortawesome/free-regular-svg-icons';
 import { faStar as lightStar} from '@fortawesome/fontawesome-free-regular';
 export default function Rating(props) {
     const {rating, numreview}=props
