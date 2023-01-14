@@ -12,9 +12,7 @@ const Header = () => {
   
     
   const handleitem =()=>{
-    settoggleItem(true);
-   
-    return
+    settoggleItem(!istoggleitem);
   }
   return (
     <>
