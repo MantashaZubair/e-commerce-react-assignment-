@@ -1,0 +1,27 @@
+/* footer*/
+.footer{
+    background-color: var(--text-btn-clr7);
+    width: 100%;
+   height: auto;
+  
+}
+
+.footer h3{
+    color: var(--text-btn-clr5);
+    font-size: 1.4rem;
+}
+.footer a{
+    text-decoration: none;
+    color:var(--text-clr2);
+    font-weight: 600;
+}
+.footer a:hover{
+    text-decoration: none;
+    color:var(--text-clr);
+}
+.footer p{
+    color:var(--text-clr2);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+

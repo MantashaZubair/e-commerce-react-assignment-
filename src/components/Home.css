@@ -1,0 +1,146 @@
+
+/* carousel section*/
+.carousel-item{
+    height: 60vh;
+    max-width: 100%;
+
+}
+.carousel-item img{
+
+    position: absolute;
+    height: 60vh;
+    max-width: 100%;
+    background-size: cover;
+    background-position: top;
+    filter: brightness(70%);
+
+}
+.center{
+  height: 45vh; 
+  padding-left: 20px;
+   
+}
+.center .carousel-item {
+    height: 38vh;
+    width: 100%;
+  }
+
+/*----offer css*/
+.offers{
+    padding-top: 5rem;
+}
+.offer-image{
+    min-width: 100%;
+    max-height: 400px;
+}
+
+ .offer-box .offer-image img{
+    width:100%;
+    min-height:100%;
+    object-fit: cover;
+    filter: brightness(80%)
+}
+.product-image img:hover{
+  transition:   0.5s ease ;
+  box-shadow: 10px 10px 10px #888888;
+
+    }
+.offers .offer-box .offer-info{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers .offer-box .offer-info .heading-bigger{
+    font-size: 2.2rem;
+    color: var(--text-btn-clr5);
+    
+    
+}
+.offers .offer-box .offer-info .offer-title-1{
+    font-size: 1rem;
+    color: var(--text-btn-clr5);
+}
+.offers .offer-box .offer-info .btn-outline-danger{
+   color: var(--text-btn-clr5);
+   font-weight: 600;
+   outline: none;
+}
+/*product section*/
+.product{
+    padding-top: 4rem;
+    
+}
+
+.product .product-heading span{
+    color:var(--text-btn-clr2);
+}
+.cards{
+    background-color: #f8f8f8;
+    border-radius: 0.3rem;
+    margin: 1rem;
+}
+.product-list .product-name h5{
+ font-size: 1rem;
+ font-weight: 600;
+ padding: 0 1px;
+ transform: all 0.3s ease 0s;
+}
+.product-image{
+    width: 100%;
+    height:270px;
+    background-size: cover;
+}
+.product-image img{
+height: 100%;
+width: 100%;
+border-top-left-radius: 0.3rem;
+border-top-right-radius: 0.3rem;
+}
+.product-image img:hover{
+  transition:   0.5s ease ;
+  box-shadow: 10px 10px 10px #888888;
+
+    }
+
+.product-list .product-name h5:hover{
+   color:var(--text-btn-clr2);
+   }
+   .product-list .product-name .amount{
+   color: var(--text-btn-clr2);
+   font-weight: 600;
+   }
+   /* .product-list .product-name .fa-star{
+    color:var(--text-btn-clr6) ;  
+    
+   } 
+   .product-list .product-name .fa-star.active{
+    color: var(--text-btn-clr2);
+   }   */
+   .product-list .product-name .add_to_cart{
+    background: transparent;
+    border-radius: 4px;
+    font-weight: 600;
+    transform: all 0.3s ease 0s;
+    border: none;
+   }
+   .product-list .product-name .add_to_cart:hover{
+    color:brown;
+   }
+   .rating span{
+    color: #f0c040;
+    margin:0.1rem;
+    position: relative;
+    left: 0;
+    }
+    .rating span:last-child {
+      color: #404040;
+    }
+
